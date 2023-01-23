@@ -1,25 +1,22 @@
-# Canonical W-ETH
+# Canonical W-XRP
 
-Canonical [W-ETH](https://weth.io/) package (see https://blog.0xproject.com/canonical-weth-a9aa7d0279dd)
+Canonical W-XRP package (based on [WETH9](https://github.com/gnosis/canonical-weth))
 
 ## Usage
 
 ```sh
-npm install --save truffle-contract canonical-weth
+npm install --save truffle-contract canonical-wxrp
 ```
 
 and
 
 ```js
 const contract = require('truffle-contract');
-const wethArtifact = require('canonical-weth');
+const wxrpArtifact = require('canonical-wxrp');
 
-const weth = contract(wethArtifact);
+const wxrp = contract(wxrpArtifact);
 ```
 
 ## Deployed contract addresses
 
-- Mainnet: [0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2](https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2)
-- Kovan: [0xd0a1e359811322d97991e03f863a0c30c2cf029c](https://kovan.etherscan.io/address/0xd0a1e359811322d97991e03f863a0c30c2cf029c)
-- Ropsten: [0xc778417e063141139fce010982780140aa0cd5ab](https://ropsten.etherscan.io/address/0xc778417e063141139fce010982780140aa0cd5ab)
-- Rinkeby: [0xc778417e063141139fce010982780140aa0cd5ab](https://rinkeby.etherscan.io/address/0xc778417e063141139fce010982780140aa0cd5ab)
+- Devnet: [0x57dcC4332FA8Ef169fc0D19dc169267f02961ac9](https://evm-sidechain.xrpl.org/address/0x57dcC4332FA8Ef169fc0D19dc169267f02961ac9)

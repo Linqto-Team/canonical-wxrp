@@ -19,25 +19,25 @@
     "truffle": "^5.0.5",
     "yargs": "^13.2.1"
   },
-  "name": "canonical-weth",
-  "description": "Canonical WETH package (see https://blog.0xproject.com/canonical-weth-a9aa7d0279dd)",
+  "name": "canonical-wxrp",
+  "description": "Canonical WXRP package (see https://blog.0xproject.com/canonical-weth-a9aa7d0279dd)",
   "version": "1.4.0",
   "main": "index.js",
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gnosis/canonical-weth.git"
+    "url": "git+https://github.com/Linqto-Team/canonical-wxrp.git"
   },
   "keywords": [
     "canonical",
-    "weth",
-    "ethereum",
+    "wxrp",
+    "xrpl",
     "truffle",
     "smart-contract"
   ],
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/gnosis/canonical-weth/issues"
+    "url": "https://github.com/gnosis/canonical-wxrp/issues"
   },
-  "homepage": "https://github.com/gnosis/canonical-weth#readme"
+  "homepage": "https://github.com/gnosis/canonical-wxrp#readme"
 }

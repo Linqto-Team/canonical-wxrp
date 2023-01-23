@@ -1,5 +1,5 @@
 module.exports = {
-  contractName: "WETH9",
+  contractName: "WXRP",
   abi: [
     {
       constant: true,
@@ -280,35 +280,14 @@ module.exports = {
     }
   ],
   networks: {
-    "1": {
+    "1440001": {
       events: {},
       links: {},
-      address: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      address: "0x57dcC4332FA8Ef169fc0D19dc169267f02961ac9",
       transactionHash:
-        "0xb95343413e459a0f97461812111254163ae53467855c0d73e0f1e7c5b8442fa3"
-    },
-    "3": {
-      events: {},
-      links: {},
-      address: "0xc778417e063141139fce010982780140aa0cd5ab",
-      transactionHash:
-        "0x19ae7fb1bd96c6f623741f76573a3e97d8a863358dafb1d773a8f9ad98b424b4"
-    },
-    "4": {
-      events: {},
-      links: {},
-      address: "0xc778417e063141139fce010982780140aa0cd5ab",
-      transactionHash:
-        "0x7bc8e85f99556aa23a41dd3c107e92ec76f057e4cea39f376ffb1b15d514b11f"
-    },
-    "42": {
-      events: {},
-      links: {},
-      address: "0xd0a1e359811322d97991e03f863a0c30c2cf029c",
-      transactionHash:
-        "0x0e8d602b350e2a896134d79b48b8a59488a0a70933d46c5736c47b468877be35"
+        "0x51f8c3f3f976b7a58345df6cd5961edee09afd3cf2794fe04fbdab9d66ce33c6sage."
     }
   },
   schemaVersion: "2.0.0",
-  updatedAt: "2018-05-08T22:28:55.958Z"
+  updatedAt: "2023-01-13T02:21:57Z"
 };
