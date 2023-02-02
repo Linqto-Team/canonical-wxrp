@@ -280,7 +280,7 @@ module.exports = {
     }
   ],
   networks: {
-    "1440001": {
+    "31337": {
       events: {},
       links: {},
       address: "0x57dcC4332FA8Ef169fc0D19dc169267f02961ac9",

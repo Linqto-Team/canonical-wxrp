@@ -1,6 +1,6 @@
 # Canonical W-XRP
 
-Canonical W-XRP package (based on [WETH9](https://github.com/gnosis/canonical-weth))
+Canonical W-XRP package (based on [WETH](https://github.com/gnosis/canonical-weth))
 
 ## Usage
 
