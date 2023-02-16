@@ -16,9 +16,9 @@
   ],
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/gnosis/canonical-wxrp/issues"
+    "url": "https://github.com/linqto-team/canonical-wxrp/issues"
   },
-  "homepage": "https://github.com/gnosis/canonical-wxrp#readme",
+  "homepage": "https://github.com/linqto-team/canonical-wxrp#readme",
   "scripts": {
     "prepack": "npm run build && eslint . && npm run fmtsrc",
     "fmtsrc": "eslint . --fix",

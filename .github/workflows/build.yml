@@ -1,0 +1,23 @@
+name: Build
+
+on: [push]
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+    env:
+      PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: yarn install, build, and test
+        run: |
+          yarn install
+          yarn run build --if-present
+          yarn test
+      - name: Archive contract ABI artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: abi-artifacts
+          path: |
+            build/contracts
