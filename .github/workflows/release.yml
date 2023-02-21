@@ -5,7 +5,7 @@ on:
     types: [created]
 
 env:
-  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+  NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   build_and_test:
