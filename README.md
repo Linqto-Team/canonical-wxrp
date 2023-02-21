@@ -1,11 +1,11 @@
-# Canonical W-XRP
+# Wrapped XRP
 
 Canonical W-XRP package (based on [WETH](https://github.com/gnosis/canonical-weth))
 
 ## Usage
 
 ```sh
-npm install --save truffle-contract canonical-wxrp
+npm install --save truffle-contract @linqto-team/canonical-wxrp
 ```
 
 and
