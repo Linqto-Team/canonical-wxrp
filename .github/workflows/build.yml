@@ -13,7 +13,7 @@ jobs:
       - name: yarn install, build, and test
         run: |
           yarn install
-          yarn run build --if-present
+          yarn run build
           yarn test
       - name: Archive contract ABI artifacts
         uses: actions/upload-artifact@v2
