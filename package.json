@@ -1,7 +1,7 @@
 {
   "name": "@linqto-team/canonical-wxrp",
   "description": "Canonical WXRP package (see https://blog.0xproject.com/canonical-weth-a9aa7d0279dd)",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -12,6 +12,9 @@
     "wxrp",
     "xrpl",
     "smart-contract"
+  ],
+  "files": [
+    "build"
   ],
   "license": "GPL-3.0",
   "bugs": {
