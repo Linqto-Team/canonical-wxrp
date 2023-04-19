@@ -1,6 +1,6 @@
 # Wrapped XRP
 
-Canonical W-XRP package (based on [WETH](https://github.com/gnosis/canonical-weth))
+Canonical WXRP package (based on [WETH](https://github.com/gnosis/canonical-weth))
 
 ## Usage
 
@@ -19,4 +19,5 @@ const wxrp = contract(wxrpArtifact);
 
 ## Deployed contract addresses
 
-- Devnet: [0x57dcC4332FA8Ef169fc0D19dc169267f02961ac9](https://evm-sidechain.xrpl.org/address/0x57dcC4332FA8Ef169fc0D19dc169267f02961ac9)
+- XRPL EVM Devnet: [0x57dcC4332FA8Ef169fc0D19dc169267f02961ac9](https://evm-sidechain.xrpl.org/address/0x57dcC4332FA8Ef169fc0D19dc169267f02961ac9)
+- Linqto Devnet: [0xa8e852E7bD61F2aF9fA95C9c7148FF4a9a68965C](https://explorer.linqto-dev.com/token/0xa8e852E7bD61F2aF9fA95C9c7148FF4a9a68965C/token-transfers)
